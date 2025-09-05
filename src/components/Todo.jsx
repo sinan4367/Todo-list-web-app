@@ -3,7 +3,7 @@ import axios from "axios";
 import todo from "../assets/todo_icon.png";
 import Todoitems from "./Todoitems";
 
-const API_URL = "http://localhost:5000/todos";
+const API_URL = "https://todo-list-web-app-backend-oxpv.onrender.com/todos";
 
 const Todo = () => {
   const [todolist, setTodolist] = useState([]);
